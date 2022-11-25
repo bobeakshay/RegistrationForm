@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration Form</title>
+<link rel = "stylesheet" href = "style.css">
+<style>
+body {
+	background: #c0c0cc;
+}
+
+form {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background: #7a7cbb;
+	font-size: 17px;
+}
+
+input [type-text] {
+	width: 100px;
+	padding: 5px;
+	font-size: 50px;
+}
+
+input [type-submit] {
+	padding: 5px;
+	font-size: 18px;
+}
+
+textarea {
+	background: #f2f2f2;
+	width: 500px;
+	font-size: 20px;
+	margin: auto;
+}
+</style>
+<style>
+            .blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>
+		<style>
+			h1 {
+				color: blue;
+			}
+</style>
+</head>
+
+<section>
+
+	<div class = "container">
+		
+		<img src="D:\Eclipse IDE Programs\Desktop\bit.jpg" alt = " ">
+		
+	</div>
+	<div class = "container2">
+		
+		<img src="D:\Eclipse IDE Programs\Desktop\Picture.png" alt = " ">
+		
+	</div>
+	
+	<div>
+	
+		<h1 align=center>BHAGWANT INSTITUTE OF TECHOLOGY, BARSHI</h1	>
+	
+	</div>
+	
+	</section>
+	
+	<body>
+	<marquee class = "blink">Get latest news & updates about BITSAT 2023 via SMS and e-mail, by entering your details below: </marquee>
+	
+	<h1 align=center>Registration Form</h1>
+	<h2 align=center>Fill out the form carefully for registration</h2>
+	
+	<form>
+		
+		<label for=f1> first name : </label> <br> 
+		<input type="text"placeholder="Enter first name" id=firstname name="first name" required maxlength=8><br> 
+		
+		<label for=f1> last name : </label><br> 
+		<input type="text" placeholder="Enter last name" id=lastname name="last name"required> <br>
+		
+		Password : <br> <input type=password id="pass" placeholder="Password"><br>
+		
+		Confirm password : <br> 
+		<input type = "confirm password" id="pass" placeholder=" Confirm Password"><br> 
+		
+		Email id : <br>
+		<input type="text" name="email" placeholder="Enter your email id">
+		
+		Age : <input type=number id="age" name="age" min=8 max=60> <br>
+		
+		Gender : <select name="gender">
+			<option>Male</option>
+			<option>Female</option>
+			<option>Other</option>
+		</select><br> 
+		
+		<label for="jdate"> Enter joining date </label><br> 
+		<input type="date" id="jdate" name="jdate"> <br>
+		<br>
+		
+		<textarea rows="5" cols="30"> This is the html form with textarea</textarea><br> 
+		
+		<input type="button" value="Register">
+		
+	</form>
+</body>
+</html>

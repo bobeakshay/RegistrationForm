@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.container{
+	width : 220px;
+	height : 200px;
+	float : left;
+	overflow : hidden;
+}
+.container2{
+	width : 200px;
+	height : 170px;
+	float : right;
+	overflow : hidden;
+}
